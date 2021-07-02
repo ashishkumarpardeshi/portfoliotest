@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashish Workbench</title>
+
     <link rel="stylesheet" href="styles.css">
 
     <script
@@ -16,13 +17,13 @@
     <script>
         $(function(){
             $('#siteheader').load('header.html');
+            $("#sitefooter").load("footer.html"); 
         });
     </script>
 
 </head>
 <body>
-    <!--
-    <div class="header">
+    <!--<div class="header">
         <div class="innerheader">
 
             <div class="logocontainer">
@@ -41,20 +42,21 @@
              </ul>
            
         </div>
-    </div>
--->
+    </div>-->
+  
+    <img class="headerimage" src="images/ashishworkbench_spi.png">
 
     <div id="siteheader"></div>
     <br>
     <br>
-
+    <br>
+    <br>
 
     <div class="container">
 
        <div class="main">
 
             <div class="introgrid">
-            
                 <div class="intro">
                     <br>
                     <br>
@@ -73,17 +75,20 @@
                 <div class="pp">
                     <img class="profilepicture" width="200" height="200" src="images/photo_2021-06-06_12-04-16.jpg">
                 </div>
+            </div>
 
+            <div class="aboutme">
+                <h1>About Me</h1>
+            </div>
+
+            <div class="skillset">
+                <h1>My SkillSets</h1>
             </div>
         </div> 
 
     </div>
 
-    <div class="footer">
-
-    </div>
-
-
+    <div id="sitefooter"></div>
    
 </body>
 </html>

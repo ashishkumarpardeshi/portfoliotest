@@ -19,6 +19,7 @@ html, body {
 	overflow: auto;
 	padding-bottom: 100px;
 }
+
 .intro {
 	text-align: left;
 	color: rgb(75, 78, 80);
@@ -53,10 +54,11 @@ html, body {
 
 .introgrid {
 	display: grid;
-	
+	height: 300px;
 	grid-template-columns: 50% 50%;
 	background-color: rgb(255, 254, 254);
 	padding-left: 120px;
+	box-shadow: 0px 0px 8px #888888;
 }
 
 .pp {
@@ -160,7 +162,12 @@ html, body {
     border: 0.4px solid grey;
 }
 
-.header {
+#siteheader {
+	position: sticky;
+	top: 0px;
+}
+
+ .header {
 	width: auto;
 	height: 60px;
 	display: block;
@@ -222,7 +229,7 @@ html, body {
 	height: 100%;
 	display: table;
 	float: left;	
-	padding: 0px 12px;
+	padding: 0px 15px;
 	
 }
 
@@ -242,7 +249,9 @@ html, body {
 	color: turquoise;
 }
 
-.footer {position: relative;
+
+.footer {
+	position: relative;
 	width: auto;
 	height: 100px;
 	margin-top: -100px;
@@ -250,4 +259,33 @@ html, body {
 	background-color: #5B5A59;
 	clear: both;
 }
+
+.imagesc {
+	text-align: center;
+}
+
+.headerimage {
+	width: 100%;
+	height: 8%;
+	display: block;
+	margin: 0 auto;
+	background-color: #5B5A59;
+}
+
+.aboutme {
+	height: 300px;
+	text-align: center;
+	padding-top: 30px;
+	color:  #538fee;
+	
+	font-weight: 800;
+	font-family: sans-serif;
+}
+
+.skillset {
+	padding-top: 30px;
+	color:  #538fee;
+	font-family: sans-serif;
+}
+
 
